@@ -18,7 +18,7 @@ class RefExample extends Component {
         }
     }
     focusInput =()=>{
-        alert(this.inputRef.current.value)
+       this.inputRef.current.focus()
     }
   render() {
     return (
