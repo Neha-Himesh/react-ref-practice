@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import RefExample from './components/RefExample';
+import FRParentInput from './components/FRParentInput';
 
 function App() {
   return (
     <div className="App">
-      <RefExample />
+      <FRParentInput />
     </div>
   );
 }
